@@ -1,0 +1,7 @@
+@mixin respond($BREAKPOINT) {
+  @if $BREAKPOINT == TAB {
+    @media only screen and (max-width: 66.75em) {
+      @content;
+    }
+  }
+}
